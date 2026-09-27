@@ -1,0 +1,45 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-code / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (MUHIM: Token va kalitlar ketmasligi uchun)
+.env
+*.env
+*.session
+*.session-journal
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Temporary files & video storage
+temp_files/
+*.mp4
+*.mkv
+*.avi
+*.srt
+*.ass
+*.vtt
+
+# Logs
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
